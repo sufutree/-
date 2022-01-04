@@ -1,6 +1,5 @@
 #include <IRremote.h>
 int IR_RECEIVE_PIN = 9;
-#define OPEN = 0xEAB7BACD
 int trigPin = 12;                  //Trig Pin
 int echoPin = 11;                  //Echo Pin
 long duration, cm, inches, ms;
